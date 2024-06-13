@@ -1,4 +1,3 @@
-import React from "react"
 import { Golfer } from "../types"
 import { LeaderboardItem } from "./LeaderboardItem"
 import {

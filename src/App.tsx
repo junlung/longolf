@@ -1,8 +1,6 @@
 import { useQuery } from "@tanstack/react-query"
 import { useEffect, useState } from "react"
 import { Leaderboard } from "./components/Leaderboard"
-import { InfoPanel } from "./components/InfoPanel"
-import { GlobalStyles } from "./GlobalStyles"
 import { Golfer, User } from "./types"
 import userData from './assets/picks.json'
 
