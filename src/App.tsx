@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query"
 import { useEffect, useState } from "react"
 import { Leaderboard } from "./components/Leaderboard"
 import { Golfer, User } from "./types"
-import userData from './assets/picks.json'
+import userData from '../public/picks.json'
 
 function App() {
   const users = userData.userData as User[]
